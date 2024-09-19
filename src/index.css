@@ -1,0 +1,39 @@
+/* Add your styles here */
+
+.trips-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.trip-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.selected-trip {
+    margin-top: 24px;
+}
+
+.selected-trip img {
+    max-width: 100%;
+    height: auto;
+}
+
+.bg-danger {
+    background-color: red;
+    color: white;
+}
+
+.bg-warning {
+    background-color: yellow;
+    color: black;
+}
+
+.bg-success {
+    background-color: green;
+    color: white;
+}
