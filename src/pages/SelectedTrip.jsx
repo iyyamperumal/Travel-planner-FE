@@ -23,7 +23,7 @@ const SelectedTrip = () => {
 
             <h3>Selected Trips List</h3>
             {selectedTrips.length > 0 ? (
-                <ul style={{ listStyle: "none", display: "flex" }}>
+                <ul style={{ listStyle: "none", display: "flex", flexWrap: "wrap"}}>
                     {selectedTrips.map(trip => (
                         <li key={trip.placeId}>
                             <div className="trip-card" style={{ margin: "10px" }}>
